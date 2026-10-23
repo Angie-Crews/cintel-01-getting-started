@@ -1,15 +1,16 @@
 # Continuous Intelligence Project Report
 
-Continuous Intelligence | Project 01 | Example Report
+Continuous Intelligence | Project 01 | Angie Crews
 
 ## Overview
 
-This project establishes a professional Python environment
-for developing and running continuous intelligence applications.
+This project establishes a professional Python environment for developing
+and running continuous intelligence applications.
 
-The objective is to demonstrate that a Python project can be
-configured, executed, verified, and maintained using
-a reproducible workflow.
+The current project demonstrates that a Python application can be configured,
+executed, verified, and maintained using a reproducible workflow. As the
+project develops, I plan to explore data quality monitoring by checking data
+for issues such as missing information and duplicates.
 
 ## Tools and Methods
 
@@ -22,28 +23,42 @@ The project uses:
 - Ruff, ty, and pytest for code verification.
 - Zensical and GitHub Pages for published documentation.
 
-The example pipeline is organized as a Python module
-with a `main()` function and structured logging.
+The pipeline is organized as a Python module with a `main()` function and
+structured logging. It also uses project folder paths to organize and identify
+important areas of the project.
 
 ## Verification
 
-A successful execution displays:
+I ran the project from the VS Code terminal using:
 
-    Pipeline executed successfully!
+`uv run python -m cintel.pipeline`
 
-The pipeline records execution details in a project log.
+The pipeline ran successfully and displayed information about the Python
+environment and important project folder paths.
 
-These results demonstrate that the project environment
-can execute the example application.
+The execution ended with:
+
+`Pipeline executed successfully!`
+
+The successful results verify that the project environment is configured
+correctly and that the Python pipeline can run as expected.
+
+### Successful Pipeline Execution
+
+The following screenshot shows the successful execution of the Python pipeline:
+
+![Successful pipeline execution](images/pipeline-success.png)
 
 ## Interpretation
 
-A working development environment is a prerequisite
-for building reliable analytical systems.
+Successfully running the pipeline confirms that the development environment
+is ready for future analytics work. The project provides a foundation for
+adding additional features while keeping the workflow organized and
+reproducible.
 
-This project establishes the foundation for subsequent
-work involving data ingestion, signal design,
-anomaly detection, monitoring, and system assessment.
+For a future data quality monitoring project, this foundation could be used
+to check data for issues such as missing information or duplicates and log
+the results for review.
 
 ## Documentation Index
 
@@ -54,8 +69,9 @@ anomaly detection, monitoring, and system assessment.
 
 ## Project Links
 
-- [GitHub Repository](https://github.com/denisecase/cintel-01-getting-started)
-- [Example Pipeline](https://github.com/denisecase/cintel-01-getting-started/blob/main/src/cintel/pipeline.py)
+- [My GitHub Repository](https://github.com/Angie-Crews/cintel-01-getting-started)
+- [My Pipeline](https://github.com/Angie-Crews/cintel-01-getting-started/blob/main/src/cintel/pipeline.py)
+- [Original Example Project](https://github.com/denisecase/cintel-01-getting-started)
 
 ## Project Resources
 
